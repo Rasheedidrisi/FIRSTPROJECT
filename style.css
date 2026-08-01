@@ -75,6 +75,339 @@ section {
   max-width: 1600px;
 }
 
+.view-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+.view-2 .texttop,
+.view-2 .textbottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.view-2 .texttop div,
+.view-2 .textbottom div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.3rem;
+}
+.view-2 .texttop p,
+.view-2 .textbottom p {
+  font-weight: 400;
+  opacity: 0.5;
+}
+.view-2 .texttop h3,
+.view-2 .textbottom h3 {
+  font-weight: 600;
+}
+
+.view-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-3 .top {
+  width: 100%;
+}
+.view-3 .top img {
+  width: 100%;
+  border-radius: 2%;
+}
+.view-3 .bottom {
+  background-color: #1e1e1e;
+  padding: 2REM;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  border-radius: 2%;
+}
+.view-3 .bottom h3 {
+  font-weight: 400;
+}
+.view-3 .bottom .text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-3 .bottom .text h2 {
+  font-weight: 400;
+  font-size: 3rem;
+}
+.view-3 .bottom .text p {
+  opacity: 0.5;
+  font-size: 1rem;
+}
+
+.view-4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-4 .top {
+  width: 100%;
+}
+.view-4 .top img {
+  width: 100%;
+  border-radius: 2%;
+}
+.view-4 .bottom {
+  background-color: #1e1e1e;
+  padding: 2REM;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  border-radius: 2%;
+}
+.view-4 .bottom h3 {
+  font-weight: 400;
+}
+.view-4 .bottom .text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-4 .bottom .text h2 {
+  font-weight: 400;
+  font-size: 3rem;
+}
+.view-4 .bottom .text p {
+  opacity: 0.5;
+  font-size: 1rem;
+}
+
+.view-5 {
+  padding: 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.view-5 h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+}
+.view-5 button {
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.view-6 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.view-6 .card {
+  width: 100%;
+  background-image: url(./girlimgar.webp);
+  background-size: cover;
+  aspect-ratio: 1/1;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.view-6 .card .icons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.view-6 .card .icons .icon {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+}
+.view-6 .card .text {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+.view-6 .card .text h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.view-6 .card .text h4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.view-6 .card2 {
+  width: 100%;
+  background-image: url(./girl2.webp);
+  background-size: cover;
+  aspect-ratio: 1/1;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.view-6 .card2 .icons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.view-6 .card2 .icons .icon {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+}
+.view-6 .card2 .text {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+.view-6 .card2 .text h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.view-6 .card2 .text h4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.view-6 .card3 {
+  width: 100%;
+  background-image: url(./boy3.webp);
+  background-size: cover;
+  aspect-ratio: 1/1;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.view-6 .card3 .icons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.view-6 .card3 .icons .icon {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  cursor: pointer;
+}
+.view-6 .card3 .text {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+.view-6 .card3 .text h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.view-6 .card3 .text h4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.view7 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.view7 .topup {
+  width: 100%;
+}
+.view7 .topup img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 1/1;
+  border-radius: 2%;
+}
+.view7 .bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #1e1e1e;
+}
+.view7 .bottom .up {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.view7 .bottom .up p {
+  opacity: 0.5;
+  font-size: 1rem;
+}
+.view7 .bottom .up h3 {
+  font-size: 2rem;
+  width: 60%;
+  font-weight: 600;
+}
+
+.view8 {
+  width: 100%;
+  color: #121212;
+  padding: 2rem;
+}
+.view8 div {
+  width: 100%;
+  background-color: #cebd63;
+  padding: 1rem;
+}
+.view8 div div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.view8 div div p {
+  font-size: 1.3rem;
+  opacity: 0.5;
+  font-weight: 500;
+}
+.view8 div div h1 {
+  width: 71%;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.view8 div button {
+  background-color: #121212;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem;
+  color: azure;
+  font-weight: 500;
+  border-radius: 8%;
+}
+
 @media (min-width: 900px) {
   main {
     width: 100%;
@@ -101,5 +434,88 @@ section {
   }
   main .view-1 .bottom div p {
     width: 90%;
+  }
+  main .view-2 {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  main .view-2 .texttop,
+  main .view-2 .textbottom {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  main .view-2 .texttop h3,
+  main .view-2 .textbottom h3 {
+    font-size: 3rem;
+  }
+  main .view-3 {
+    padding: 2.5rem;
+    width: 100%;
+    flex-direction: row-reverse;
+  }
+  main .view-3 .top,
+  main .view-3 .bottom {
+    width: 50%;
+  }
+  main .view-3 .bottom {
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  main .view-3 .bottom .paragraph {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  main .view-3 .bottom .paragraph p {
+    font-size: 1.6rem;
+    font-weight: 100;
+  }
+  main .view-4 {
+    padding: 2.5rem;
+    width: 100%;
+    flex-direction: row;
+  }
+  main .view-4 .top,
+  main .view-4 .bottom {
+    width: 50%;
+  }
+  main .view-4 .bottom {
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  main .view-4 .bottom .paragraph {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  main .view-4 .bottom .paragraph p {
+    font-size: 1.6rem;
+    font-weight: 100;
+  }
+  main .view-6 {
+    flex-direction: row;
+    padding: 2rem;
+  }
+  main .view7 {
+    padding: 2rem;
+    flex-direction: row;
+  }
+  main .view7 .bottom .up h3 {
+    font-size: 4rem;
+    width: 100%;
+    font-weight: 400;
+  }
+  main .view8 div h1 {
+    text-transform: uppercase;
+    font-size: 8rem;
+    width: 100%;
+    font-weight: 400;
+  }
+  main .view8 button {
+    align-content: center;
   }
 }/*# sourceMappingURL=style.css.map */
